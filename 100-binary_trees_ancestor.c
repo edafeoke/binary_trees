@@ -7,7 +7,8 @@
  *
  * Return: a pointer to the lowest common ancestor node of the two given nodes
  */
-binary_tree_t *binary_trees_ancestor(const binary_tree_t *first, const binary_tree_t *second)
+binary_tree_t *binary_trees_ancestor(const binary_tree_t *first,
+		const binary_tree_t *second)
 {
 	binary_tree_t *f = malloc(sizeof(binary_tree_t));
 
